@@ -25,6 +25,8 @@ Route::get('/mostrar','ProdutoControlador@opcao_cor');
 
 Route::get('/loop/for/{n}','ProdutoControlador@loop_for');
 
+Route::get('/foreach','ProdutoControlador@loopforeach');
+
 Route::get('/bootstrap', function () {
     return view('pagina');
 });
